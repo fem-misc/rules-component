@@ -1,0 +1,21 @@
+{
+  "name": "rules-component",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "serve": "poi --config playground/poi.config.js --serve",
+    "build": "poi --config playground/poi.config.js --prod",
+    "now-build": "npm run build"
+  },
+  "dependencies": {
+    "@femessage/el-form-renderer": "^1.6.1",
+    "axios": "^0.19.0",
+    "element-ui": "^2.10.1",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "poi": "^12.7.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
