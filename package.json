@@ -12,6 +12,7 @@
     "@femessage/el-form-renderer": "^1.10.0",
     "axios": "^0.19.0",
     "element-ui": "^2.10.1",
+    "saika": "^0.7.3",
     "vue": "^2.6.10"
   },
   "devDependencies": {

@@ -6,7 +6,8 @@
 
 ### Demo
 
-:::demo
+<Demo />
+
 ```html
 <el-form-renderer ref="form" :content="content">
   <el-button @click="validateForm">验证表单</el-button>
@@ -34,7 +35,7 @@ export default {
         {
           id: 'age',
           label: '年龄😍',
-          component: MiscInputAge
+          component: InputAge
         }
       ]
     }
@@ -53,13 +54,12 @@ export default {
 }
 </script>
 ```
-:::
 
 ### Component
 
-MiscInputAge(输入年龄)
+InputAge(输入年龄)
 
-```html {highlight: ['9-23']}
+```html
 <template>
   <div class="misc">
     <el-input :value="value" @input="onInput"></el-input>
