@@ -1,6 +1,7 @@
 import Saika from 'saika'
 import 'saika/dist/saika.css'
 import Demo from './components/Demo.vue'
+import OverrideDemo from './components/OverrideDemo.vue'
 
 new Saika({
   target: 'app',
@@ -14,7 +15,8 @@ new Saika({
   postMixins: [
     {
       components: {
-        Demo
+        Demo,
+        OverrideDemo
       }
     }
   ]
