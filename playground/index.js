@@ -5,12 +5,10 @@ import Demo from './components/Demo.vue'
 new Saika({
   target: 'app',
   sourcePath: '/source',
-  posts: [
-    {
-      title: '自定义组件规则',
-      link: '/misc'
-    }
-  ],
+  theme: 'readme',
+  router: {
+    mode: 'history'
+  },
   postMixins: [
     {
       components: {
