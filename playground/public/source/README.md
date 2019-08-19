@@ -8,7 +8,7 @@
 
 <Demo />
 
-```html
+```html {highlight: ['16-22', '34-40']}
 <el-form-renderer ref="form" :content="content">
   <el-button @click="validateForm">验证表单</el-button>
   <el-button @click="validateAge">仅验证自定义组件</el-button>
@@ -72,7 +72,7 @@ export default {
 
 InputAge(输入年龄)
 
-```html
+```html {highlight: ['9-23']}
 <template>
   <div class="misc">
     <el-input :value="value" @input="onInput"></el-input>
