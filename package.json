@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@femessage/el-form-renderer": "^1.11.2",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "element-ui": "^2.11.1",
     "saika": "^2.1.1",
     "vue": "^2.6.10"
